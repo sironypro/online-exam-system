@@ -1,7 +1,7 @@
 *{margin:0;padding:0;outline:none}
 p{margin:0}
 .success{color:green; display: block; padding-bottom: 5px;} 
-.error {color: red; display: block; padding-bottom: 5px; }
+.error {color: red; display: block;}
 input[type="text"], input[type="password"] {border: 1px solid #ddd; margin-bottom: 10px; padding: 5px; width: 238px; } 
 input[type="submit"] {cursor: pointer; font-size: 15px; padding: 1px 10px; }
 
@@ -38,4 +38,4 @@ body{font-family:verdana}
 
 
 /* Admin Login*/
-.adminlogin {border: 2px solid #ebebeb; border-radius: 3px; margin: 65px auto 0; padding: 35px; width: 345px; }
+.adminlogin {border: 2px solid #ebebeb; border-radius: 3px; margin: 30px auto 0; padding: 35px; width: 345px; }
