@@ -1,4 +1,11 @@
 <?php
+	$filepath = realpath(dirname(__FILE__));
+
+	include_once ($filepath.'/../../lib/Session.php');
+	Session::checkSession();
+?>
+
+<?php
 header("Cache-Control: no-store, no-cache, must-revalidate"); 
 header("Cache-Control: pre-check=0, post-check=0, max-age=0"); 
 header("Pragma: no-cache"); 
@@ -29,7 +36,7 @@ header("Last-Modified: " . gmdate("D, d M Y H:i:s") . " GMT");
 						<li><a href="users.php">Manage Users</a></li>
 						<li><a href="quesadd.php">Add Ques</a></li>
 						<li><a href="queslist.php">Ques List</a></li>
-						<li><a href="?action=logout">Logout</a></li>
+						<li><a href="logout.php?action=logout">Logout</a></li>
 					</ul>
 			 	</div>
 	
