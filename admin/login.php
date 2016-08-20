@@ -7,6 +7,12 @@
 
 ?>
 
+<?php 
+	if($_SERVER['REQUEST_METHOD'] == 'POST'){
+		$adminData = $db->getAdminData($_POST);
+	}
+?>
+
 <div class="main">
 	<h1>Admin Login</h1>
 	<div class="adminlogin">
