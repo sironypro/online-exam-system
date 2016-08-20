@@ -1,0 +1,41 @@
+*{margin:0;padding:0;outline:none}
+p{margin:0}
+.success{color:green; display: block; padding-bottom: 5px;} 
+.error {color: red; display: block; padding-bottom: 5px; }
+input[type="text"], input[type="password"] {border: 1px solid #ddd; margin-bottom: 10px; padding: 5px; width: 238px; } 
+input[type="submit"] {cursor: pointer; font-size: 15px; padding: 1px 10px; }
+
+body{font-family:verdana}
+
+
+/* Wrapper */
+.wrapper{width:900px; margin: 5px auto;background:#ddd; border:5px solid #444;}
+
+/* Header Option */
+.headeroption {background: #444 url("../img/adminbanner.jpg") no-repeat scroll 0 0; border-bottom: 2px solid #444444; height: 100px; } .footeroption{background:#154a01;color:#fff;text-align:center;padding:20px;}
+.headeroption h2{margin:0;font-size:24px}
+
+/* Main Content */
+.maincontent {font-size: 18px; min-height: 430px; padding: 20px; background:#599f63; } 
+
+/* Menu */
+.menu{overflow:hidden;}
+.menu ul{margin:0;padding:0;list-style:none}
+.menu ul li{display:block;float:left;}
+.menu ul li a {border: 1px solid #fff; border-radius: 3px; color: green; display: block; margin: 0 5px 5px; padding: 1px 10px 3px; text-decoration: none; background: #fff; } 
+.menu ul li a:hover{border:1px solid #fff;color: #599f63;}
+
+/* Main */
+.main {background: #fff none repeat scroll 0 0; border: 1px solid #999; margin-top: 10px; min-height: 368px; padding: 15px; width: 828px; } 
+.main h1 {border-bottom: 1px dashed #ddd; color: #888; margin: 0 0 5px; padding-bottom: 5px; }
+
+
+
+
+
+/* Footer Option */
+.footeroption h2{margin:0;font-size:24px}
+
+
+/* Admin Login*/
+.adminlogin {border: 2px solid #ebebeb; border-radius: 3px; margin: 65px auto 0; padding: 35px; width: 345px; }
