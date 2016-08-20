@@ -15,6 +15,10 @@ class Admin{
 		$this->db = new Database();
 		$this->fm = new Format();
 	}
+
+	public function getAdminData($data){
+
+	}
 }
 
 ?>
