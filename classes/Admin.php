@@ -31,7 +31,7 @@ class Admin{
 		}else{
 
 			$admPass = md5($adminPass);
-			$query = "SELECT * FROM tbl_admin WHERE adminUser = '$adminUser' AND adminPass = '$admPass'";
+			$query = "SELECT * FROM tbl_admin WHERE BINARY adminUser = '$adminUser' AND adminPass = '$admPass'";
 				
 			$result = $this->db->select($query);
 			
